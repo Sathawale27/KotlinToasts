@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinToasts</string>
+    <string name="short_toast">Short Toast</string>
+    <string name="long_toast">Long Toast</string>
+</resources>
