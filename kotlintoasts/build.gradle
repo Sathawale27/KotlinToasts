@@ -14,3 +14,5 @@ android {
 dependencies {
     implementation deps.kotlin.stdlib
 }
+
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
