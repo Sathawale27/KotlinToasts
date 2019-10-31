@@ -11,7 +11,7 @@ import android.widget.Toast
  * @param message The actual message to show in toast
  */
 inline fun Context.longToast(message: () -> String): Toast = Toast
-    .makeText(this, message(), Toast.LENGTH_SHORT)
+    .makeText(this, message(), Toast.LENGTH_LONG)
     .apply {
         show()
     }
