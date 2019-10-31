@@ -14,6 +14,16 @@ To show toast for long time with the help of Toast.LENGTH_LONG
 longToast { "This is an example of toast with Long duration" }
 ```
 
+Download
+--------
+
+```groovy
+
+dependencies {
+  implementation 'com.sarveshathawale:kotlintoasts:1.0.0'
+}
+```
+
 
 # License
 
