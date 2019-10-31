@@ -1,3 +1,5 @@
+apply plugin: "com.github.ben-manes.versions"
+
 buildscript {
     ext.buildConfig = [
         'compileSdk': 29,
@@ -29,6 +31,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.5.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
         classpath 'org.jlleitschuh.gradle:ktlint-gradle:9.0.0'
+        classpath "com.github.ben-manes:gradle-versions-plugin:0.27.0"
     }
 }
 
