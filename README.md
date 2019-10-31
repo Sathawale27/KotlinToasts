@@ -20,7 +20,7 @@ Download
 ```groovy
 
 dependencies {
-  implementation 'com.sarveshathawale:kotlintoasts:1.0.0'
+  implementation 'com.sarveshathawale:kotlintoasts:1.0.1'
 }
 ```
 
