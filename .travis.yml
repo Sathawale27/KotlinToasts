@@ -1,0 +1,12 @@
+language: android
+
+jdk: openjdk11
+
+script: ./gradlew clean build
+
+branches:
+  except:
+    - gh-pages
+
+notifications:
+  email: false
